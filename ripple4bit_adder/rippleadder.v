@@ -1,3 +1,4 @@
+//==================================================4 BIT RIPPLE CARRY ADDER==================================================================
 module fulladder(input a,
                 input b,
                 input cin,
@@ -17,6 +18,7 @@ module ripple_adder(input[3:0] a,
                     input cin,
                     output [3:0] s,
                     output cout);
+                    
 
                     wire w1,w2,w3;
                     fulladder f1(a[0],  b[0],  cin, s[0],  w1);
