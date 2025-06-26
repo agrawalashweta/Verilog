@@ -6,9 +6,9 @@ Project structure:
 **Description**: Implements a 4 bit ripple carry adder.
 **Purpose**: Demonstrates a basic combinational circuit design using structural modeling.
 
-2.singleclockfifo
+2. singleclockfifo
 
-**Description**: Implements a single clock (synchronous fifo)
+**Description**: Implements a single clock (synchronous fifo).
 **Purpose**: Shows how to design a synchronous FIFO where both read and write instructions are driven by the same clock.
 
 3. 32bitadder
@@ -20,5 +20,6 @@ Project structure:
 
 **Description**: Implements a 4 bit Array Multiplier.
 **Purpose**: Introduces basic multiplication in hardware using array logic.
+
 
 Contributions are welcome! If you'd like to add more mini-projects or enhance the existing ones, feel free to open a pull request or issue.
