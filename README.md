@@ -21,5 +21,15 @@ Project structure:
 **Description**: Implements a 4 bit Array Multiplier.
 **Purpose**: Introduces basic multiplication in hardware using array logic.
 
+5. vedic4bit
+
+**Description**: Implements a 4 bit array multiplier using the vedic multiplication method.
+**Purpose**: Introduces advanced methods like vedic method to multiply, easier since it's reuses modules made before.
+
+6. barrelshifter8bit
+
+**Description**: Implements a 8 bit barrel shifter using 2x1 mux.
+**Purpose**: It has both shift left and shift right modules, helps understand concepts of mux better.
+
 
 Contributions are welcome! If you'd like to add more mini-projects or enhance the existing ones, feel free to open a pull request or issue.
