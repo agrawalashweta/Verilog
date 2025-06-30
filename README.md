@@ -31,5 +31,15 @@ Project structure:
 **Description**: Implements a 8 bit barrel shifter using 2x1 mux.
 **Purpose**: It has both shift left and shift right modules, helps understand concepts of mux better.
 
+7. C_LookAhead
+
+**Description**: The Carry Look-Ahead Adder is a fast adder architecture designed to improve the speed of binary addition by reducing the propagation delay of carry signals. Instead of waiting for the carry to propagate bit-by-bit, the CLA generates carry signals in advance using generate and propagate logic for each bit position.
+**Purpose**: The main purpose of the CLA is to accelerate addition operations in digital circuits by minimizing carry propagation time. It is especially useful in high-performance processors and systems where fast arithmetic computation is critical.
+
+8. carryselectadder
+
+**Desceiption**: The Carry Select Adder is a compromise between speed and complexity. It partitions the addition operation into smaller blocks and performs parallel computations assuming both possible carry-in values (0 and 1). The correct result is selected using a multiplexer once the actual carry-in is known.
+**Purpose**: The CSA aims to improve addition speed by allowing partial parallel computation and reducing the waiting time caused by carry propagation.
+
 
 Contributions are welcome! If you'd like to add more mini-projects or enhance the existing ones, feel free to open a pull request or issue.
