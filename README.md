@@ -38,7 +38,7 @@ Project structure:
 
 8. carryselectadder
 
-**Desceiption**: The Carry Select Adder is a compromise between speed and complexity. It partitions the addition operation into smaller blocks and performs parallel computations assuming both possible carry-in values (0 and 1). The correct result is selected using a multiplexer once the actual carry-in is known.
+**Description**: The Carry Select Adder is a compromise between speed and complexity. It partitions the addition operation into smaller blocks and performs parallel computations assuming both possible carry-in values (0 and 1). The correct result is selected using a multiplexer once the actual carry-in is known.
 **Purpose**: The CSA aims to improve addition speed by allowing partial parallel computation and reducing the waiting time caused by carry propagation.
 
 
