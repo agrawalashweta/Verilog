@@ -51,5 +51,10 @@ Project structure:
 **Description**:  Carry Skip Adder divides the adder into blocks and allows the carry to bypass (or "skip") an entire block if all bits in that block propagate the carry. Each block uses ripple carry internally with added skip logic.
 **Purpose**: Improves speed over ripple carry adders by reducing carry propagation delay through blocks, especially in wider adders.
 
+11. Shift_AddMultiplier
+
+**Description**: The Shift-and-Add Multiplier is a sequential digital circuit that multiplies two unsigned binary numbers by repeatedly shifting and conditionally adding the multiplicand to an accumulator based on the bits of the multiplier.
+**Purpose**: To perform binary multiplication efficiently using simple operations (shifts and adds), making it suitable for hardware implementations where area and control logic need to be minimized.
+
 
 Contributions are welcome! If you'd like to add more mini-projects or enhance the existing ones, feel free to open a pull request or issue.
