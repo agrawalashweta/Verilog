@@ -41,5 +41,15 @@ Project structure:
 **Description**: The Carry Select Adder is a compromise between speed and complexity. It partitions the addition operation into smaller blocks and performs parallel computations assuming both possible carry-in values (0 and 1). The correct result is selected using a multiplexer once the actual carry-in is known.
 **Purpose**: The CSA aims to improve addition speed by allowing partial parallel computation and reducing the waiting time caused by carry propagation.
 
+9. CarrySaveAdder
+
+**Description**: A Carry-Save Adder adds three or more binary numbers at once by saving carries instead of immediately propagating them. It outputs two vectors: partial sum and carry.
+**Purpose**: Used to speed up multi-operand addition in operations like multiplication or accumulation, where full carry propagation can be delayed until the final step.
+
+10. CarrySkipAdder
+
+**Description**:  Carry Skip Adder divides the adder into blocks and allows the carry to bypass (or "skip") an entire block if all bits in that block propagate the carry. Each block uses ripple carry internally with added skip logic.
+**Purpose**: Improves speed over ripple carry adders by reducing carry propagation delay through blocks, especially in wider adders.
+
 
 Contributions are welcome! If you'd like to add more mini-projects or enhance the existing ones, feel free to open a pull request or issue.
