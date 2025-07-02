@@ -61,5 +61,10 @@ Project structure:
 **Description**: A digital circuit that multiplies signed binary numbers using Booth’s algorithm to reduce operations and improve efficiency.
 **Purpose**: To perform fast, efficient signed multiplication in two's complement form.
 
+13. BCDAdder
+
+**Description**: A BCD adder adds two decimal digits in binary-coded decimal form. It ensures correct decimal results by adjusting sums over 9
+**Purpose**: Used in devices like calculators and digital displays.
+
 
 Contributions are welcome! If you'd like to add more mini-projects or enhance the existing ones, feel free to open a pull request or issue.
