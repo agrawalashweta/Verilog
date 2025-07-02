@@ -56,5 +56,10 @@ Project structure:
 **Description**: The Shift-and-Add Multiplier is a sequential digital circuit that multiplies two unsigned binary numbers by repeatedly shifting and conditionally adding the multiplicand to an accumulator based on the bits of the multiplier.
 **Purpose**: To perform binary multiplication efficiently using simple operations (shifts and adds), making it suitable for hardware implementations where area and control logic need to be minimized.
 
+12. BoothMultiplier
+
+**Description**: A digital circuit that multiplies signed binary numbers using Booth’s algorithm to reduce operations and improve efficiency.
+**Purpose**: To perform fast, efficient signed multiplication in two's complement form.
+
 
 Contributions are welcome! If you'd like to add more mini-projects or enhance the existing ones, feel free to open a pull request or issue.
