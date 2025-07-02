@@ -71,5 +71,10 @@ Project structure:
 **Description**: A 4-bit universal shift register that can hold, shift left/right, parallel load, or invert data based on a 3-bit control input
 **Purpose**: It’s used for flexible data storage and manipulation in digital systems.
 
+15. FSM
+
+**Description**: Mealy and moore state machines to detect a sequence of 2 or more 1's has been implemented.
+**Purpose**: FSMs are used to model and control sequential logic where the output depends on a sequence of inputs over time. 
+
 
 Contributions are welcome! If you'd like to add more mini-projects or enhance the existing ones, feel free to open a pull request or issue.
