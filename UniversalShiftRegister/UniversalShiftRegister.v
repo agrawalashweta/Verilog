@@ -1,7 +1,7 @@
 module D_ff(clk,clear,D,Q);
     input clk,clear;
     input D;
-    output Q;
+    output reg Q;
     always @(posedge clk or negedge clear)
     begin
         if (~clear) Q<=0;
