@@ -66,5 +66,10 @@ Project structure:
 **Description**: A BCD adder adds two decimal digits in binary-coded decimal form. It ensures correct decimal results by adjusting sums over 9
 **Purpose**: Used in devices like calculators and digital displays.
 
+14. UniversalShiftRegister
+
+**Description**: A 4-bit universal shift register that can hold, shift left/right, parallel load, or invert data based on a 3-bit control input
+**Purpose**: It’s used for flexible data storage and manipulation in digital systems.
+
 
 Contributions are welcome! If you'd like to add more mini-projects or enhance the existing ones, feel free to open a pull request or issue.
