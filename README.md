@@ -1,7 +1,7 @@
 # Verilog
 This repository contains a collection of small Verilog modules and mini-projects, created for practice and educational purposes. Each project is implemented in a modular and understandable format, suitable for beginners and intermediate learners of digital design using Verilog.
 
-##PROJECT STRUCTURE:
+## PROJECT STRUCTURE:
 
 ### 1. ripple4bit_adder
 
@@ -84,11 +84,11 @@ This repository contains a collection of small Verilog modules and mini-projects
 **Purpose**: The module performs the multiplication of two complex numbers of the form (a + jb) and (c + jd) using the formula: (a + jb) * (c + jd) = (ac - bd) + j(ad + bc)
 The result is a 32-bit output where the upper 16 bits contain the real part and the lower 16 bits contain the imaginary part of the product.
 
-##TESTBENCHES
+## TESTBENCHES
 
 All the modules include **testbenches* written in Verilog to verify their functionality using simulation tools. All the simulation results are included in their respective folders.
 
-##TOOLS
+## TOOLS
 
 1. Verilog HDL
 2. Icarus Verilog
