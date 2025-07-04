@@ -76,5 +76,11 @@ Project structure:
 **Description**: Mealy and moore state machines to detect a sequence of 2 or more 1's has been implemented.
 **Purpose**: FSMs are used to model and control sequential logic where the output depends on a sequence of inputs over time. 
 
+16. ComplexMultiplication
+
+**Description**: This Verilog module implements complex number multiplication. Each complex input is packed into a 16-bit value, where the upper 8 bits represent the real part and the lower 8 bits represent the imaginary part.
+**Purpose**: The module performs the multiplication of two complex numbers of the form (a + jb) and (c + jd) using the formula: (a + jb) * (c + jd) = (ac - bd) + j(ad + bc)
+The result is a 32-bit output where the upper 16 bits contain the real part and the lower 16 bits contain the imaginary part of the product.
+
 
 Contributions are welcome! If you'd like to add more mini-projects or enhance the existing ones, feel free to open a pull request or issue.
