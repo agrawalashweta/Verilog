@@ -1,7 +1,7 @@
-# Verilog
+# VERILOG
 This repository contains a collection of small Verilog modules and mini-projects, created for practice and educational purposes. Each project is implemented in a modular and understandable format, suitable for beginners and intermediate learners of digital design using Verilog.
 
-## Project Overview:
+## PROJECT OVERVIEW:
 
 1. Reinforce Digital Design Concepts.
 2. Develop and simulate real-world circuits.
