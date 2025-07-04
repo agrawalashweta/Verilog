@@ -1,6 +1,13 @@
 # Verilog
 This repository contains a collection of small Verilog modules and mini-projects, created for practice and educational purposes. Each project is implemented in a modular and understandable format, suitable for beginners and intermediate learners of digital design using Verilog.
 
+## Project Overview:
+
+1. Reinforce Digital Design Concepts.
+2. Develop and simulate real-world circuits.
+3. Master VerilogHDL Fundamentals
+4. Gain exposure to modern EDA tools.
+
 ## PROJECT STRUCTURE:
 
 ### 1. ripple4bit_adder
@@ -86,7 +93,7 @@ The result is a 32-bit output where the upper 16 bits contain the real part and 
 
 ## TESTBENCHES
 
-All the modules include **testbenches* written in Verilog to verify their functionality using simulation tools. All the simulation results are included in their respective folders.
+All the modules include **testbenches** written in Verilog to verify their functionality using simulation tools. All the simulation results are included in their respective folders.
 
 ## TOOLS
 
