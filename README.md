@@ -91,6 +91,11 @@ This repository contains a collection of small Verilog modules and mini-projects
 **Purpose**: The module performs the multiplication of two complex numbers of the form (a + jb) and (c + jd) using the formula: (a + jb) * (c + jd) = (ac - bd) + j(ad + bc)
 The result is a 32-bit output where the upper 16 bits contain the real part and the lower 16 bits contain the imaginary part of the product.
 
+### 17. Radix4Booth
+
+**Description**: The Radix4Booth implements a radix4 modified booth algorithm for efficient signed multiplication of two 8 bit numbers. It processes 2 bit of the multiplier at a time reducing the number of partial products and improving performance. 
+**Purpose**: The modified booth algorithm is faster in terms of time and performance. It makes it suitable for arithmetic units in DSP, CPU and FPGAs where high speed multiplication is needed.
+
 ## TESTBENCHES
 
 All the modules include **testbenches** written in Verilog to verify their functionality using simulation tools. All the simulation results are included in their respective folders.
