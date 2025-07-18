@@ -111,6 +111,11 @@ The result is a 32-bit output where the upper 16 bits contain the real part and 
 **Description**: ROM is a type of non-volatile memory used in computers and electronic devices to store permanent data or instructions. Unlike RAM, the data stored in ROM cannot be easily modified or erased.
 **Purpose**: The main purpose of ROM is to hold firmware or system software, such as the bootloader or BIOS, that must be preserved even when the device is powered off.
 
+### 21. FixedPriorityArbiter
+
+**Description**: A fixed priority arbiter is a digital circuit used to grant access to a shared resource (like a bus or memory) among multiple requesters. It assigns a predefined priority order to each request line — for example: REQ[3] > REQ[2] > REQ[1] > REQ[0].
+**Purpose**: To ensure that only one requester gets access at a time, always choosing the highest-priority active request.
+
 ## TESTBENCHES
 
 All the modules include **testbenches** written in Verilog to verify their functionality using simulation tools. All the simulation results are included in their respective folders.
