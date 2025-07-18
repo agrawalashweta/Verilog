@@ -101,6 +101,11 @@ The result is a 32-bit output where the upper 16 bits contain the real part and 
 **Description**: Single-Port RAM is a type of memory block that allows only one access (either read or write) at a time through a single address and data port. It uses a common clock to synchronize all operations.
 **Purpose**: Single-Port RAM is used in digital systems to store temporary or permanent data, such as Buffering data in signal processing systems,Holding intermediate results in processors,Memory for lookup tables, configuration data, or control logic.
 
+### 19. DualPortRam
+
+**Description**: Dual Port RAM is a type of memory that has two independent access ports, allowing simultaneous read and/or write operations on two different addresses.
+**Purpose**: Enables faster data access by allowing two different operations (read/write) to happen at the same time.
+
 ## TESTBENCHES
 
 All the modules include **testbenches** written in Verilog to verify their functionality using simulation tools. All the simulation results are included in their respective folders.
