@@ -116,6 +116,11 @@ The result is a 32-bit output where the upper 16 bits contain the real part and 
 **Description**: A fixed priority arbiter is a digital circuit used to grant access to a shared resource (like a bus or memory) among multiple requesters. It assigns a predefined priority order to each request line — for example: REQ[3] > REQ[2] > REQ[1] > REQ[0].
 **Purpose**: To ensure that only one requester gets access at a time, always choosing the highest-priority active request.
 
+### 22. RoundRobin(FT)
+
+**Description**: A round robin arbiter is a digital circuit used to fairly allocate access to a shared resource (like a bus or memory) among multiple requesters. 
+**Purpose**: To prevent starvation and ensure fairness, especially in systems where all requesters are equally important (e.g., CPUs, DMA, or peripherals competing for memory access).
+
 ## TESTBENCHES
 
 All the modules include **testbenches** written in Verilog to verify their functionality using simulation tools. All the simulation results are included in their respective folders.
