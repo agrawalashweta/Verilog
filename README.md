@@ -106,6 +106,11 @@ The result is a 32-bit output where the upper 16 bits contain the real part and 
 **Description**: Dual Port RAM is a type of memory that has two independent access ports, allowing simultaneous read and/or write operations on two different addresses.
 **Purpose**: Enables faster data access by allowing two different operations (read/write) to happen at the same time.
 
+### 20. ROM
+
+**Description**: ROM is a type of non-volatile memory used in computers and electronic devices to store permanent data or instructions. Unlike RAM, the data stored in ROM cannot be easily modified or erased.
+**Purpose**: The main purpose of ROM is to hold firmware or system software, such as the bootloader or BIOS, that must be preserved even when the device is powered off.
+
 ## TESTBENCHES
 
 All the modules include **testbenches** written in Verilog to verify their functionality using simulation tools. All the simulation results are included in their respective folders.
