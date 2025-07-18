@@ -1,4 +1,5 @@
 //--------------------------------------------------------ROUND ROBIN ARBITER WITH FIXED TIME SLICES--------------------------------------
+//this is a pretty basic implementation of round robin arbiter it just gives the grant whenever the logic of req switches but we shud wait until the process is executed properly for it to change
 module round_robin(
                     input clk,
                     input rstn,
