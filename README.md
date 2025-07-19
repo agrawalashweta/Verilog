@@ -121,6 +121,10 @@ The result is a 32-bit output where the upper 16 bits contain the real part and 
 **Description**: A round robin arbiter is a digital circuit used to fairly allocate access to a shared resource (like a bus or memory) among multiple requesters. 
 **Purpose**: To prevent starvation and ensure fairness, especially in systems where all requesters are equally important (e.g., CPUs, DMA, or peripherals competing for memory access).
 
+### 23. RoundRobin
+
+**Description**: Slight changes to the above round robin implementation. 
+
 ## TESTBENCHES
 
 All the modules include **testbenches** written in Verilog to verify their functionality using simulation tools. All the simulation results are included in their respective folders.
